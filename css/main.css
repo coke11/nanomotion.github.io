@@ -1,6 +1,7 @@
-/* Product Sans is a font created by Google -- https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i */
-@font-face {
-  font-family: 'Product Sans', Arial, sans-serif;
-  src: local('Product Sans'), local('ProductSans-Regular'), url(https://fonts.gstatic.com/s/productsans/v9/HYvgU2fE2nRJvZ5JFAumwaaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+p {
+  font-family: 'Product Sans', Arial;
+}
+
+h1 {
+  font-family: 'Product Sans', Arial;
 }
