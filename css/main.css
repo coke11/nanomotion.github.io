@@ -16,3 +16,6 @@ button {
   text-shadow: none;
   border: 0px;
 }
+
+a {
+  font-family: 'Product Sans', Arial;
