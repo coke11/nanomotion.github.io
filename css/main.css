@@ -39,3 +39,8 @@ button {
 
 a {
   font-family: 'Product Sans', Arial;
+}
+
+#content {
+  color: gray;
+}
