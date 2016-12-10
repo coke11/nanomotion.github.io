@@ -3,3 +3,4 @@ ErrorDocument 401 /cdn/errorpages/401-403.html
 ErrorDocument 400 /cdn/errorpages/400.html
 ErrorDocument 403 /cdn/errorpages/401-403.html
 ErrorDocument 500 /cdn/errorpages/500.html
+ErrorDocument 503 /cdn/errorpages/503.html
