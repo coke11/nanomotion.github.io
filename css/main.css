@@ -34,8 +34,9 @@ button {
   background: #28b3ca;
   color: #fff;
   display: inline-block;
-  padding: 6px 10px;
+  padding: 10px 14px;
   font:  normal 400 22px/1 "Product Sans", Arial;
+  font-size: 24px
   text-align: center;
   text-shadow: none;
   border: 0px;
