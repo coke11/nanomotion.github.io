@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+    function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      vars[key] = value;
+    });
+    return vars;
+    }
+    
+    var url = getUrlVars()["url"];
+    
+    function redirect(url) {
+      window.location.replace(url);
+    }
+    
+    setTimeout(redirect(url), 5000)
+    </script>
+    <link href='https://nanomotion.github.io/css/main.css' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+    <center>
+      <br height="10%">
+      <h1>You are being redirected (307)</h1>
+      <p style="color:gray;">Please wait, you will be redirected in 5 seconds</p>
+    </center>
+  </body>
+</html>
