@@ -1,4 +1,4 @@
-function detectmobile() { 
+var detectmobile = function() { 
  if( navigator.userAgent.match(/Android/i)
  || navigator.userAgent.match(/webOS/i)
  || navigator.userAgent.match(/iPhone/i)
@@ -14,7 +14,7 @@ function detectmobile() {
   }
 }
 
-function detectmobile2() {
+var detectmobile2 = function() {
    if(window.innerWidth <= 1080 && window.innerHeight <= 1920) {
      return true;
    } else {
