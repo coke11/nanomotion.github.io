@@ -101,11 +101,12 @@ ul.topnav li.icon {display: none;}
 }
 
 .footer {
+  color: #ffffff;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 5;
   background-color: #28b3ca;
   text-align: center;
 }
