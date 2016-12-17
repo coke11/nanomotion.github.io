@@ -78,6 +78,7 @@ ul.topnav li.icon {display: none;}
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
+    font-size: 36px;
     float: right;
     display: inline-block;
   }
