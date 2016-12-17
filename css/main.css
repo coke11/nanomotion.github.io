@@ -101,6 +101,9 @@ ul.topnav li.icon {display: none;}
 }
 
 .footer {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: black;
   font-size: 10px;
   color: #ffffff;
   position: absolute;
