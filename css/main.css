@@ -101,6 +101,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .footer {
+  font-size: 10px;
   color: #ffffff;
   position: absolute;
   right: 0;
