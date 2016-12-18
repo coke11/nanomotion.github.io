@@ -23,7 +23,9 @@ var detectmobile2 = function() {
 }
 if(!(document.location == "https://nanomotion.github.io/#ignore-mobile")) {
  if(detectmobile() && detectmobile2()) {
-   console.info("User is on a mobile device; switching to mobile view")
+   console.info("User is on a mobile device; switching to mobile view");
    document.location = "https://nanomotion.github.io/mobile"
  }
+} else {
+ console.info("document.location = " + document.location);
 }
