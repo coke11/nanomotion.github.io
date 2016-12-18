@@ -106,7 +106,7 @@ ul.topnav li.icon {display: none;}
   border-color: black;
   font-size: 10px;
   color: #ffffff;
-  position: static;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
