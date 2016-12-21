@@ -34,6 +34,14 @@
          Java, Python, and HTML.</p>
          <br height="5%">
          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+	      <script>
+		      function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail());
+		      }</script>
 	  <p><br><br><br></p>
     <div class="footer">
       <p style="float:left; font-size:16px;"><strong>Nanomotion</strong>.github.io</p>
