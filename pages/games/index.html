@@ -8,6 +8,11 @@
     <script src="https://nanomotion.github.io/js/topnav.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style>
+      .game-link {
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
     <ul class="topnav" id="navbar">
@@ -15,16 +20,19 @@
       <li><a href="https://nanomotion.github.io/">Home</a></li>
       <li><a href="https://nanomotion.github.io/pages/projects">Projects</a></li>
       <li><a href="https://nanomotion.github.io/pages/games">Games</a></li>
+      <li><a href="https://nanomotion.github.io/faq">Help</a></li>
       <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="toggleTopnavResponsiveness()">☰</a></li>
     </ul>
     <div id="main-content">
       <center>
         <h1>Games</h1>
-        <a href="./getontop">Get on Top</a><br>
-        <a style="cursor: not-allowed;">Earn to Die 2</a><br>
-        <a style="cursor: not-allowed;">Cat Mario</a><br>
-        <a style="cursor: not-allowed;">Learn to Fly</a><br>
-        <a style="cursor: not-allowed;">Learn to Fly 2</a><br>
+        <p style="color: gray;">Games with an age restriction will appear in <strong style="color: #ff4949;">red</strong></p>
+        <a href="./getontop" class="game-link">Get on Top</a><br>
+        <a href="./earntodie2" class="game-link" style="color: #ff4949;">Earn to Die 2</a><br>
+        <a href="./cat-mario" class="game-link">Cat Mario</a><br>
+        <a href="./learntofly2" class="game-link">Learn to Fly 2</a><br>
+        <!-- Disabled game: <a style="cursor: not-allowed;" class="game-link">INSERT NAME HERE</a><br>
+             Age-restricted game: <a href="GAME LINK HERE" style="color: #ff4949;" class="game-link">INSERT NAME HERE</a><br>-->
       </center>
     </div>
     <p><br><br><br></p>
