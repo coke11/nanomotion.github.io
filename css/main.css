@@ -1,6 +1,6 @@
 p {
   font-family: 'Product Sans', Arial;
-  font-size: 20px;
+  font-size: 22px;
   padding: 0px;
 }
 
@@ -30,16 +30,40 @@ h6 {
   font-family: 'Product Sans', Arial;
 }
 
-button {
-  background: #28b3ca;
-  color: #fff;
-  display: inline-block;
-  padding: 10px 14px;
-  font:  normal 400 22px/1 "Product Sans", Arial;
-  font-size: 24px
-  text-align: center;
-  text-shadow: none;
-  border: 0px;
+.button {
+    font-family: 'Product Sans', Arial;
+    position: relative;
+    background-color: #28b3ca;
+    border: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #31dbf7;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }
 
 a {
