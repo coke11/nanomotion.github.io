@@ -46,7 +46,7 @@ button {
     cursor: pointer;
 }
 
-button:after {
+button:hover {
     content: "";
     background: #31dbf7;
     display: block;
@@ -59,7 +59,7 @@ button:after {
     transition: all 0.8s
 }
 
-button:active:after {
+button:active:hover {
     padding: 0;
     margin: 0;
     opacity: 1;
