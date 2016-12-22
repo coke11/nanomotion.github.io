@@ -48,22 +48,7 @@ button {
 
 button:hover {
     content: "";
-    background: #31dbf7;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
-
-button:active:hover {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+    background-color: #2bcbe5;
 }
 
 a {
