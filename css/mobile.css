@@ -1,12 +1,12 @@
 p {
   font-family: 'Product Sans', Arial;
-  font-size: 36px;
+  font-size: 32px;
   padding: 0px;
 }
 
 h1 {
   font-family: 'Product Sans', Arial;
-  font-size: 48px;
+  font-size: 40px;
   padding: 0px;
 }
 
@@ -35,7 +35,7 @@ button {
     position: relative;
     background-color: #28b3ca;
     border: none;
-    font-size: 48px;
+    font-size: 40px;
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
@@ -76,7 +76,7 @@ ul.topnav li a {
   padding: 20px 22px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 ul.topnav li a:hover {background-color: #555;}
@@ -86,7 +86,7 @@ ul.topnav li.icon {display: none;}
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
-    font-size: 36px;
+    font-size: 32px;
     float: right;
     display: inline-block;
   }
