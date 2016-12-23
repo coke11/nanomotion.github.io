@@ -6,7 +6,5 @@
   width: 95%;
   padding: 10px;
   text-align: left;
-  border-style: none none none solid;
-  border-color: #f44242;
-  border-width: 10px;
+  border-left: solid 10px #f44242;
   margin: 10px 0px;
