@@ -1,6 +1,6 @@
 .border-test {
   font-size: 24px;
-  font-color: white;
+  color: white;
   font-weight: lighter;
   background-color: #ff9e9e;
   width: 95%;
@@ -8,3 +8,4 @@
   text-align: right;
   border-style: none solid none none;
   border-color: #f44242;
+  border-width: 30px;
