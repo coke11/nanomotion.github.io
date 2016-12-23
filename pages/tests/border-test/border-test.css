@@ -6,6 +6,6 @@
   width: 95%;
   padding: 10px;
   text-align: right;
-  border-style: none none none solid;
+  border-style: none solid none none;
   border-color: #f44242;
-  border-width: 20px;
+  border-width: 10px;
