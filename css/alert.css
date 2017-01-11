@@ -9,6 +9,7 @@
 }
 
 .alert {
+    font-family: 'Product Sans';
     padding: 20px;
     background-color: #28b3ca;
     color: white;
