@@ -10,6 +10,7 @@
 }
 
 .alert {
+    font-family: 'Product Sans';
     font-size: 36px;
     padding: 20px;
     background-color: #28b3ca;
