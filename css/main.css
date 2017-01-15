@@ -122,3 +122,8 @@ ul.topnav li.icon {display: none;}
   background-color: #28b3ca;
   text-align: center;
 }
+
+body {
+  font-family: 'Product Sans';
+  margin: 0px;
+}
