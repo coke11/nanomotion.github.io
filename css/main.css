@@ -132,7 +132,8 @@ body {
   font-family: 'Product Sans';
   margin: 0px;
   height: 100%;
-  background-image: url(https://nanomotion.github.io/i/codecode.jpg);
+  background: url("https://nanomotion.github.io/i/codecode.jpg") no-repeat center center fixed;
+  /*background-image: url(https://nanomotion.github.io/i/codecode.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
