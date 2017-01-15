@@ -1,19 +1,23 @@
 .github-icon {
   background-image: url('https://nanomotion.github.io/i/git/GithubLogo.png');
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .git-icon {
   background-image: url('https://nanomotion.github.io/i/git/GitLogo.png');
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .merge-icon {
   background-image: url('https://nanomotion.github.io/i/git/Merge.png');
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .pullrequest-icon {
   background-image: url('https://nanomotion.github.io/i/git/PullRequest.png');
   background-repeat: no-repeat;
+  background-position: center center;
 }
