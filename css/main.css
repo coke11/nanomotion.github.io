@@ -162,6 +162,8 @@ body {
 }
 
 .main-content {
+  overflow-x: hidden;
+  overflow-y: scroll;
   width: 70%;
   height: 97%;
   margin: auto;
