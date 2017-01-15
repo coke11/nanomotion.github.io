@@ -1,0 +1,19 @@
+.github-icon {
+  background-image: url('https://nanomotion.github.io/i/git/githublogo.png');
+  background-repeat: no-repeat;
+}
+
+.git-icon {
+  background-image: url('https://nanomotion.github.io/i/git/gitlogo.png');
+  background-repeat: no-repeat;
+}
+
+.merge-icon {
+  background-image: url('https://nanomotion.github.io/i/git/merge.png');
+  background-repeat: no-repeat;
+}
+
+.pullrequest-icon {
+  background-image: url('https://nanomotion.github.io/i/git/pullrequest.png');
+  background-repeat: no-repeat;
+}
