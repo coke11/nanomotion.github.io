@@ -2,22 +2,30 @@
   background-image: url('https://nanomotion.github.io/i/git/GithubLogo.png');
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100px;
+  width: 100px;
 }
 
 .git-icon {
   background-image: url('https://nanomotion.github.io/i/git/GitLogo.png');
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100px;
+  width: 100px;
 }
 
 .merge-icon {
   background-image: url('https://nanomotion.github.io/i/git/Merge.png');
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100px;
+  width: 100px;
 }
 
 .pullrequest-icon {
   background-image: url('https://nanomotion.github.io/i/git/PullRequest.png');
   background-repeat: no-repeat;
   background-position: center center;
+  height: 100px;
+  width: 100px;
 }
