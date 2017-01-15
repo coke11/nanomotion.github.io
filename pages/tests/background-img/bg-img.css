@@ -2,8 +2,6 @@ body {
   background-image: url(https://nanomotion.github.io/i/codecode.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: blur(7px);
-  filter: blur(7px);
 }
 
 .center-content {
