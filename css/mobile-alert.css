@@ -11,7 +11,7 @@
 
 .alert {
     font-family: 'Product Sans';
-    font-size: 36px;
+    font-size: 32px;
     padding: 20px;
     background-color: #28b3ca;
     color: white;
@@ -22,7 +22,7 @@
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
