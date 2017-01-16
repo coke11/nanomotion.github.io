@@ -62,8 +62,9 @@ a:hover {
   text-decoration: underline;
 }
 
-#content {
+.content {
   color: gray;
+  padding: 1px;
 }
 
 body {margin:0;}
