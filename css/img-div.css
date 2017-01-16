@@ -1,31 +1,39 @@
-.github-icon {
-  background-image: url('https://nanomotion.github.io/i/git/GithubLogo.png');
+.question-icon {
+    background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Messaging/ask_question-50.png');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+.github-icon {
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Logos/github_copyrighted_filled-50.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
 }
 
 .git-icon {
-  background-image: url('https://nanomotion.github.io/i/git/GitLogo.png');
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Logos/git_filled-50.png');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .merge-icon {
-  background-image: url('https://nanomotion.github.io/i/git/Merge.png');
+  background-image: url(https://maxcdn.icons8.com/iOS7/PNG/50/Programming/merge_git_filled-50.png');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .pullrequest-icon {
-  background-image: url('https://nanomotion.github.io/i/git/PullRequest.png');
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Programming/pull_request_filled-50.png');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
