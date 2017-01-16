@@ -39,7 +39,7 @@
 }
 
 .merge-icon {
-  background-image: url(https://maxcdn.icons8.com/iOS7/PNG/50/Programming/merge_git_filled-50.png');
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Programming/merge_git_filled-50.png');
   background-repeat: no-repeat;
   background-position: center center;
   height: 50px;
