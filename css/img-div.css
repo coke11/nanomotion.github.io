@@ -1,5 +1,21 @@
+.work-icon {
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Business/work-50.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+}
+
+.info-icon {
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Very_Basic/info-50.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+}
+
 .question-icon {
-    background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Messaging/ask_question-50.png');
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Messaging/ask_question-50.png');
   background-repeat: no-repeat;
   background-position: center center;
   height: 50px;
