@@ -53,3 +53,11 @@
   height: 50px;
   width: 50px;
 }
+
+.controller-icon {
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Gaming/controller-50.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+}
