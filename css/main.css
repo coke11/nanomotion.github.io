@@ -53,15 +53,16 @@ button {
     position: relative;
     background-color: #28b3ca;
     border: none;
-    font-size: 24px;
+    font-size: 22px;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: visible;
     cursor: pointer;
+		margin: 3px;
 }
 
 button:hover {
