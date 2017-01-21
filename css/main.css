@@ -8,6 +8,7 @@ p {
 h1 {
   font-family: 'Product Sans', Arial;
   font-size: 36px;
+  font-weight: normal;
   padding: 0px;
   margin: 5px;
 }
@@ -16,30 +17,35 @@ h2 {
   font-family: 'Product Sans', Arial;
   font-size: 32px;
   margin: 5px;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Product Sans', Arial;
   font-size: 30px;
   margin: 5px;
+  font-weight: normal;
 }
 
 h4 {
   font-family: 'Product Sans', Arial;
   font-size: 28px;
   margin: 5px;
+  font-weight: normal;
 }
 
 h5 {
   font-family: 'Product Sans', Arial;
   font-size: 26px;
   margin: 5px;
+  font-weight: normal;
 }
 
 h6 {
   font-family: 'Product Sans', Arial;
   font-size: 24px;
   margin: 5px;
+  font-weight: normal;
 }
 
 button {
@@ -195,3 +201,12 @@ body {
   padding: 10px;
   box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
 }
+
+hr { 
+	background-color: lightgray;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: none;
+    height: 5px;
+} 
