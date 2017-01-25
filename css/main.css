@@ -67,8 +67,7 @@ button {
 }
 
 button:hover {
-    background-color: #2bcbe5;
-	box-shadow: 3px 3px 3px #888888;
+  box-shadow: 3px 3px 3px #888888;
 }
 
 a {
