@@ -61,3 +61,11 @@
   height: 50px;
   width: 50px;
 }
+
+.partner-icon {
+  background-image: url('https://maxcdn.icons8.com/iOS7/PNG/50/Hands/handshake_heart-50.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+}
