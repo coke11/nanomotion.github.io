@@ -164,3 +164,9 @@ hr {
   border: none;
   height: 3px;
 } 
+
+navbar {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
