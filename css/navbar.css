@@ -19,6 +19,7 @@ ul.topnav li a {
   text-decoration: none;
   transition: 0.3s;
   font-size: 17px;
+  target: _top;
 }
 
 ul.topnav li a:hover {background-color: #555;}
