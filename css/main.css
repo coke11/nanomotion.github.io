@@ -167,7 +167,7 @@ hr {
 
 .navbar {
   width: 100%;
-  overflow: hidden;
+  overflow: hidden !important;
   display: block;
 	border: none;
 	height: 58px;
