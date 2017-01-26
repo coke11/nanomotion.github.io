@@ -170,5 +170,7 @@ hr {
   overflow: hidden;
   display: block;
 	border: none;
-	
+	height: 58px;
+	padding: 0px;
+	margin: 0px;
 }
