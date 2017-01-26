@@ -169,4 +169,6 @@ navbar {
   width: 100%;
   overflow: hidden;
   display: block;
+	border: none;
+	
 }
