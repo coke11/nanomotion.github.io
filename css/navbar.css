@@ -4,6 +4,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-family: 'Product Sans', Arial;
 }
 
 ul.topnav li {float: left;}
