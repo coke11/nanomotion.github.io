@@ -165,7 +165,7 @@ hr {
   height: 3px;
 } 
 
-navbar {
+.navbar {
   width: 100%;
   overflow: hidden;
   display: block;
