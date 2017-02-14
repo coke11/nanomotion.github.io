@@ -1,6 +1,6 @@
 https://nanomotion.github.io
-https://nanomotion.tk
-https://nanomotion.ml
-https://nanomotion.ga
-https://nanomotion.cf
-https://nanomotion.gq
+http://nanomotion.tk
+http://nanomotion.ml
+http://nanomotion.ga
+http://nanomotion.cf
+http://nanomotion.gq
