@@ -29,3 +29,15 @@ h5 {
 h6 {
   font-family: 'Product Sans', Arial;
 }
+
+a {
+  font-family: 'Product Sans', Arial;
+  color: #4286f4;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Product Sans', Arial;
+  color: #4286f4;
+  text-decoration: underline;
+}
