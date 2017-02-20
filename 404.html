@@ -7,9 +7,10 @@
   <body style="margin: 0px; padding: 0px;">
     <center>
       <h1>Error 404</h1>
-      <p id="error-content">The requested page was not found on this server.</p>
+      <p>The requested page<text id="page-name" style="color: gray;"></text> was not found on this server.</p>
       <script>
-        document.getElementById("error-content").innerHTML = "The requested url " + document.location.pathname + " was not found on this server."</script>
+        document.getElementById("error-content").innerHTML = "The requested url " + document.location.pathname + " was not found on this server."
+      </script>
     </center>
   </body>
 </html>
