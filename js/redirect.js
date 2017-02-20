@@ -6,7 +6,7 @@ if (!(document.location.hostname == "nanomotion.github.io")) {
 /* For redirects such as maintenance */
 
 if (window.console) {
-  window.console.error("Nanomotion.github.io is unavailable");
+  window.console.error("nanomotion.github.io is unavailable (503)");
 }
 
 if (!(document.location.pathname == "/")) {
