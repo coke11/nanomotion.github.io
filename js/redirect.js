@@ -4,7 +4,7 @@ if (window.console) {
   window.console.error("Nanomotion.github.io is unavailable")
 }
 
-document.location = "https://nanomotion.github.io/cdn/errorpages/coming-soon.html"
+document.location = "https://nanomotion.github.io/"
 
 /*
 if (!(document.location.hostname == "nanomotion.github.io)) {
