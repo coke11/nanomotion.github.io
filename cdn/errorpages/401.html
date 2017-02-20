@@ -4,6 +4,8 @@
     <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
     <link href='https://nanomotion.github.io/css/error.css' rel='stylesheet' type='text/css'>
     <link href="https://nanomotion.github.io/i/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="670764526606-g3mgsnq4q0f91v28ljkbk8qjrlbilbtc.apps.googleusercontent.com">
     <title>Error 401</title>
   </head>
   <body>
@@ -13,7 +15,54 @@
       <p>Authentication required</p>
       <br>
       <br>
-      <p style="color:gray;"><b>You must be logged in to view this page.</b><br>If you believe this is an error, please <a style="color:gray;" href="https://github.com/Nanomotion/nanomotion.github.io/issues">let us know</a>.</p>
-     </center>
+      <p style="color:gray;"><b>You must be logged in to view this page.</b></p><br>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+      <script>
+        function onSignIn(googleUser) {
+          var profile = googleUser.getBasicProfile();
+          console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+          console.log('Name: ' + profile.getName());
+          console.log('Image URL: ' + profile.getImageUrl());
+          console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+          /**
+           * The Sign-In client object.
+           */
+          var auth2;
+
+          /**
+           * Initializes the Sign-In client.
+           */
+          var initClient = function() {
+              gapi.load('auth2', function(){
+                  /**
+                   * Retrieve the singleton for the GoogleAuth library and set up the
+                   * client.
+                   */
+                  auth2 = gapi.auth2.init({
+                      client_id: '670764526606-g3mgsnq4q0f91v28ljkbk8qjrlbilbtc.apps.googleusercontent.com'
+                  });
+
+                  // Attach the click handler to the sign-in button
+                  auth2.attachClickHandler('signin-button', {}, onSuccess, onFailure);
+              });
+          };
+
+          /**
+           * Handle successful sign-ins.
+           */
+          var onSuccess = function(user) {
+              console.log('Signed in as ' + user.getBasicProfile().getName());
+              window.href.replace("./403.html");
+           };
+
+          /**
+           * Handle sign-in failures.
+           */
+          var onFailure = function(error) {
+              console.error(error);
+              alert("Google sign in failed: " + error);
+          };
+        }</script>
+    </center>
   </body>
 </html>
