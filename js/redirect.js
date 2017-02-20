@@ -9,4 +9,6 @@ if (window.console) {
   window.console.error("Nanomotion.github.io is unavailable")
 }
 
-document.location = "https://nanomotion.github.io/"
+if (!(document.location.pathname == "/") {
+  document.location = "https://nanomotion.github.io/"
+}
