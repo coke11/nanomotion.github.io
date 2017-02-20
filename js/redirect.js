@@ -1,3 +1,8 @@
+if (!(document.location.hostname == "nanomotion.github.io")) {
+  window.open("https://nanomotion.github.io" + document.location.pathname)
+  window.close()
+}
+
 /* For redirects such as maintenance */
 
 if (window.console) {
@@ -5,8 +10,3 @@ if (window.console) {
 }
 
 document.location = "https://nanomotion.github.io/"
-
-/*
-if (!(document.location.hostname == "nanomotion.github.io)) {
-  document.location = "https://nanomotion.github.io" + document.location.pathname
-}*/
