@@ -4,7 +4,7 @@ if (window.console) {
   window.console.error("The page responded with 503")
 }
 
-document.location = "https://git.io/vD5o4"
+document.location = "https://nanomotion.github.io/503.html"
 
 /*
 if (!(document.location.hostname == "nanomotion.github.io)) {
